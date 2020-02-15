@@ -1,11 +1,11 @@
 # simplediscordbot
 makes it easy to make discord bots using classes
 
->## Requirements
+># Requirements
 ```
 discord.py
 ```
->## Examples
+># Examples
 ```python
 import pysimplebot
 
@@ -18,7 +18,7 @@ bot1.joinalert = "'Welcome {0.mention} to {1.name}!'.format(member, server)"
 bot1.start()
 
 ```
-> ### Client
+> # Client
 ```python
 bot1 = pysimplebot.Client()
 ```
