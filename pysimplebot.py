@@ -70,17 +70,21 @@ class Client:
 class Bot:
     def __init__(self):
         pass
-
+    
+    # Function called when starting bot
     def start(self):
         token = self.token
         if "description" in dir(self) and "prefix" in dir(self):
             bot = commands.Bot(command_prefix=self.prefix, description=self.description)
         elif "prefix" in dir(self):
             bot = commands.Bot(command_prefix=self.prefix, description="")
+        elif "description" in dir(self):
+            bot = commands.Bot(command_prefix="", description=self.description)
         else:
             bot = commands.Bot(command_prefix="", description="")
 
-        @bot.event
+        # When bot is ready
+        @bot.event 
         async def on_ready():
             if "onready" in dir(self):
                 eval(self.onready)
