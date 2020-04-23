@@ -47,6 +47,18 @@ Respond to messages if it startswith *userinput*
 ]
 ```
 
+
+```python
+userinput
+>>> response
+userimput3
+>>> reponse2
+userimput3
+>>> reponse3
+userinput5
+>>> response4
+```
+
 > **joinalert**
 
 Join alert for new members
