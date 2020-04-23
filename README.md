@@ -29,10 +29,22 @@ Discord bots token found [here](https://discordapp.com/developers/applications),
 > **onready**
 
 The command that will run when the bot has initialized
+```python
+bot.onready = "print('Successfully logged in)"
+```
+
+```python
+bot.start()
+>>> Successfully logged in
+```
+
 
 > **game**
 
 Determines the current game the bot is "playing"
+
+
+![gameplayed](https://github.com/KarlofKuwait/pysimplebot/blob/master/pysimplebot%20demonstration%20images/Game%20being%20played.png?raw=true)
 
 > **respond**
 
@@ -46,7 +58,6 @@ Respond to messages if it startswith *userinput*
   ["userinput5", "response4"]
 ]
 ```
-
 
 ```python
 userinput1
