@@ -41,7 +41,7 @@ Respond to messages if it startswith *userinput*
 *examples*
 ```python
 [
-  [["userinput", "userinput2"], ["response"]],
+  [["userinput1", "userinput2"], ["response"]],
   [["userinput3", "userinput4", "userinput5"], ["response2", "response3"]], # Bot will choose either response 2 or 3
   ["userinput5", "response4"]
 ]
@@ -49,7 +49,7 @@ Respond to messages if it startswith *userinput*
 
 
 ```python
-userinput
+userinput1
 >>> response
 userimput3
 >>> reponse2
