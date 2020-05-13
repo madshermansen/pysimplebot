@@ -8,9 +8,9 @@ requirements
 discord.py
 ```
 
->>>**Python 3.5.3 or higher is required**
+**Python 3.5.3 or higher is required**
 
-To install the library without full voice support, you can just run the following command:
+>To install the library without full voice support, you can just run the following command:
 
 ```
 # Linux/macOS
@@ -20,7 +20,7 @@ python3 -m pip install -U discord.py
 py -3 -m pip install -U discord.py
 ```
 
-Otherwise to get voice support you should run the following command:
+>Otherwise to get voice support you should run the following command:
 
 ```
 # Linux/macOS
@@ -40,7 +40,7 @@ $ python3 -m pip install -U .[voice]
 
 - Taken from https://github.com/Rapptz/discord.py/README.rst
 
-># Examples
+# Examples
 ```python
 import pysimplebot
 
@@ -53,15 +53,15 @@ bot1.joinalert = "'Welcome {0.mention} to {1.name}!'.format(member, server)"
 bot1.start()
 
 ```
-> # Client
+# Client
 ```python
 bot1 = pysimplebot.Client()
 ```
-> **token**
+**token**
 
 Discord bots token found [here](https://discordapp.com/developers/applications), you will need to create your own
 
-> **onready**
+**onready**
 
 The command that will run when the bot has initialized
 ```python
@@ -74,14 +74,14 @@ bot.start()
 ```
 
 
-> **game**
+**game**
 
 Determines the current game the bot is "playing"
 
 
 ![gameplayed](https://github.com/KarlofKuwait/pysimplebot/blob/master/pysimplebot%20demonstration%20images/Game%20being%20played.png?raw=true)
 
-> **respond**
+**respond**
 
 Respond to messages if it startswith *userinput*
 
@@ -105,10 +105,10 @@ userinput5
 >>> response4
 ```
 
-> **joinalert**
+**joinalert**
 
 Join alert for new members
 
-> **start()**
+**start()**
 
 Function from pysimplebot to begin the bot
