@@ -38,7 +38,7 @@ $ cd discord.py
 $ python3 -m pip install -U .[voice]
 ```
 
-- Taken from https://github.com/Rapptz/discord.py/README.rst
+- Taken from https://github.com/Rapptz/discord.py/blob/master/README.rst
 
 # Examples
 ```python
@@ -57,11 +57,11 @@ bot1.start()
 ```python
 bot1 = pysimplebot.Client()
 ```
-**token**
+### **token**
 
 Discord bots token found [here](https://discordapp.com/developers/applications), you will need to create your own
 
-**onready**
+### **onready**
 
 The command that will run when the bot has initialized
 ```python
@@ -74,14 +74,14 @@ bot.start()
 ```
 
 
-**game**
+### **game**
 
 Determines the current game the bot is "playing"
 
 
 ![gameplayed](https://github.com/KarlofKuwait/pysimplebot/blob/master/pysimplebot%20demonstration%20images/Game%20being%20played.png?raw=true)
 
-**respond**
+### **respond**
 
 Respond to messages if it startswith *userinput*
 
@@ -105,10 +105,10 @@ userinput5
 >>> response4
 ```
 
-**joinalert**
+### **joinalert**
 
 Join alert for new members
 
-**start()**
+### **start()**
 
 Function from pysimplebot to begin the bot
