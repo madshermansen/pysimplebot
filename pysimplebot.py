@@ -64,7 +64,6 @@ class Client:
             code = "self." + customcode
             exec(eval(code))
 
-
         client.run(token)
 
 class Bot:
@@ -82,6 +81,11 @@ class Bot:
         async def on_ready():
             if "onready" in dir(self):
                 eval(self.onready)
+                
+        @Bot.command
+        async def help(ctx):
+            if "help" in dir(self):
+                await ctx.send(str(help))
 
         # User running custom code (self.cc1-1000)
         # documentation for commands https://discordpy.readthedocs.io/en/latest/ext/commands/commands.html
