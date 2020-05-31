@@ -112,3 +112,11 @@ Join alert for new members
 ### **start()**
 
 Function from pysimplebot to begin the bot
+
+### help
+
+Prints message on userinput Bot.prefix"help"
+
+```python
+bot.help = "!ping for game \n!test to test messages \!hello to say hi"
+```
