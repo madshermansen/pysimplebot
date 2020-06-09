@@ -82,7 +82,7 @@ class Bot:
             if "onready" in dir(self):
                 eval(self.onready)
                 
-        @Bot.command
+        @bot.command
         async def help(ctx):
             if "help" in dir(self):
                 await ctx.send(str(help))
