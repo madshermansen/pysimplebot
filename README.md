@@ -54,7 +54,7 @@ bot1.start()
 
 ```
 
-More here [here](https://github.com/KarlofKuwait/pysimplebot/tree/master/Example%20programs)
+More [here](https://github.com/KarlofKuwait/pysimplebot/tree/master/Example%20programs)
 
 # Client
 ```python
