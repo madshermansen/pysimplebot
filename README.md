@@ -53,6 +53,9 @@ bot1.joinalert = "'Welcome {0.mention} to {1.name}!'.format(member, server)"
 bot1.start()
 
 ```
+
+More here [here](https://github.com/KarlofKuwait/pysimplebot/tree/master/Example%20programs)
+
 # Client
 ```python
 bot1 = pysimplebot.Client()
